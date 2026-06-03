@@ -436,6 +436,12 @@ const allQuestions = {
             options: ["Salomón", "David", "Moisés", "Asaf"],
             correct: 1,
             explanation: "David escribió la mayoría de los Salmos, aunque otros autores también contribuyeron."
+        },
+        {
+            question: "¿Cuántos años tenía Abraham cuando nació Isaac?",
+            options: ["80 años", "90 años", "100 años", "110 años"],
+            correct: 2,
+            explanation: "Abraham tenía 100 años cuando nació Isaac, hijo de la promesa (Génesis 21:5)."
         }
     ]
 };
