@@ -60,6 +60,96 @@ const allQuestions = {
             options: ["Cinco", "Diez", "Veinte", "Treinta"],
             correct: 1,
             explanation: "Dios entregó los Diez Mandamientos a Moisés en el Monte Sinaí (Éxodo 20)."
+        },
+        {
+            question: "¿Quién fue el padre de Noé?",
+            options: ["Matusalén", "Jared", "Enoc", "Lamec"],
+            correct: 3,
+            explanation: "Lamec fue el padre de Noé según Génesis 5:28-29."
+        },
+        {
+            question: "¿Cuántos años vivió Matusalén?",
+            options: ["700", "800", "900", "969"],
+            correct: 3,
+            explanation: "Matusalén vivió 969 años, el hombre más longevo de la Biblia (Génesis 5:27)."
+        },
+        {
+            question: "¿Quién fue la primera mujer según la Biblia?",
+            options: ["Eva", "Lilith", "Sarah", "María"],
+            correct: 0,
+            explanation: "Eva fue la primera mujer creada por Dios del lado de Adán (Génesis 2:22)."
+        },
+        {
+            question: "¿Cuántos hijos tuvo Abraham?",
+            options: ["Uno", "Dos", "Tres", "Cuatro"],
+            correct: 1,
+            explanation: "Abraham tuvo dos hijos: Ismael e Isaac (Génesis 16 y 21)."
+        },
+        {
+            question: "¿Quién fue arrojado al foso de los leones?",
+            options: ["Daniel", "Jonás", "José", "Sansón"],
+            correct: 0,
+            explanation: "Daniel fue arrojado al foso de los leones, pero Dios lo protegió (Daniel 6)."
+        },
+        {
+            question: "¿Cuántos años duró el diluvio?",
+            options: ["Cuarenta días", "Cien días", "Un año", "Tres años"],
+            correct: 2,
+            explanation: "El diluvio duró más de un año (Génesis 7:11 - 8:14)."
+        },
+        {
+            question: "¿En qué libro aparece la historia de Sansón?",
+            options: ["Jueces", "Samuel", "Reyes", "Crónicas"],
+            correct: 0,
+            explanation: "La historia de Sansón se narra en el libro de Jueces (Jueces 13-16)."
+        },
+        {
+            question: "¿Cuántas veces negó Pedro a Jesús?",
+            options: ["Una vez", "Dos veces", "Tres veces", "Cuatro veces"],
+            correct: 2,
+            explanation: "Pedro negó a Jesús tres veces antes de que cantara el gallo (Mateo 26:69-75)."
+        },
+        {
+            question: "¿Quién fue el discípulo que traicionó a Jesús?",
+            options: ["Judas Iscariote", "Simón Pedro", "Tomás", "Juan"],
+            correct: 0,
+            explanation: "Judas Iscariote traicionó a Jesús por treinta monedas de plata (Mateo 26:14-15)."
+        },
+        {
+            question: "¿En cuántos días resucitó Jesús?",
+            options: ["El mismo día", "Dos días", "Tres días", "Cuatro días"],
+            correct: 2,
+            explanation: "Jesús resucitó al tercer día después de su crucifixión (1 Corintios 15:4)."
+        },
+        {
+            question: "¿Quién fue arrojado de una ventana en Damasco?",
+            options: ["Pablo", "Pedro", "Juan", "Jacobo"],
+            correct: 0,
+            explanation: "Pablo fue arrojado de una ventana en una cesta para escapar (2 Corintios 11:33)."
+        },
+        {
+            question: "¿Cuántos años tuvo Jesús cuando fue bautizado?",
+            options: ["25", "30", "35", "40"],
+            correct: 1,
+            explanation: "Jesús tenía aproximadamente 30 años cuando fue bautizado (Lucas 3:23)."
+        },
+        {
+            question: "¿En qué ciudad nació Jesús?",
+            options: ["Nazaret", "Belén", "Jerusalén", "Capernaúm"],
+            correct: 1,
+            explanation: "Jesús nació en Belén, según Mateo 2:1 y Lucas 2:4-6."
+        },
+        {
+            question: "¿Cuántos libros tiene el Antiguo Testamento?",
+            options: ["27", "39", "46", "52"],
+            correct: 1,
+            explanation: "El Antiguo Testamento tiene 39 libros en la Biblia Reina Valera 1960."
+        },
+        {
+            question: "¿Quién fue la reina que salvó a su pueblo?",
+            options: ["Betsabé", "Ester", "Abigaíl", "Raquel"],
+            correct: 1,
+            explanation: "La reina Ester salvó a su pueblo judío del edicto de Asuero (Libro de Ester)."
         }
     ],
     medium: [
@@ -122,6 +212,90 @@ const allQuestions = {
             options: ["10", "11", "12", "13"],
             correct: 1,
             explanation: "José tenía 11 hermanos, hijo menor de Jacob y Raquel."
+        },
+        {
+            question: "¿Qué profeta fue arrojado en un hoyo de barro?",
+            options: ["Jeremías", "Ezequiel", "Oseas", "Amós"],
+            correct: 0,
+            explanation: "Jeremías fue arrojado en un hoyo de barro por los príncipes de Judá (Jeremías 38:6)."
+        },
+        {
+            question: "¿Cuántos años reina David sobre Israel?",
+            options: ["20", "30", "40", "50"],
+            correct: 2,
+            explanation: "David reinó 40 años sobre Israel (2 Samuel 5:4)."
+        },
+        {
+            question: "¿Quién fue la mujer que ungió los pies de Jesús con perfume?",
+            options: ["María de Magdala", "María de Betania", "La adúltera", "Marta"],
+            correct: 1,
+            explanation: "María de Betania ungió los pies de Jesús con un perfume muy caro (Juan 12:3)."
+        },
+        {
+            question: "¿Cuántos evangelios hay en el Nuevo Testamento?",
+            options: ["Tres", "Cuatro", "Cinco", "Seis"],
+            correct: 1,
+            explanation: "Hay cuatro evangelios: Mateo, Marcos, Lucas y Juan."
+        },
+        {
+            question: "¿Quién fue Zaqueo en la Biblia?",
+            options: ["Un sacerdote", "Un cobrador de impuestos", "Un fariseo", "Un escriba"],
+            correct: 1,
+            explanation: "Zaqueo era un cobrador de impuestos que se convirtió al seguir a Jesús (Lucas 19:1-10)."
+        },
+        {
+            question: "¿En qué ciudad fue crucificado Jesús?",
+            options: ["Belén", "Jerusalén", "Nazaret", "Capernaúm"],
+            correct: 1,
+            explanation: "Jesús fue crucificado en Jerusalén en el Gólgota (Mateo 27:33-35)."
+        },
+        {
+            question: "¿Quién fue Booz en la Biblia?",
+            options: ["Un rey", "Un juez", "Un pariente redentor de Rut", "Un profeta"],
+            correct: 2,
+            explanation: "Booz fue un pariente redentor de Rut y se convirtió en su esposo (Libro de Rut)."
+        },
+        {
+            question: "¿Cuántas veces levantó Lázaro después de morir?",
+            options: ["Una vez", "Dos veces", "Tres veces", "Nunca más"],
+            correct: 0,
+            explanation: "Lázaro fue resucitado una vez por Jesús después de estar muerto cuatro días (Juan 11:1-44)."
+        },
+        {
+            question: "¿Quién fue la primera mártir cristiana en Jerusalén?",
+            options: ["Priscila", "Dorcas", "Lidia", "No se menciona nombre específico"],
+            correct: 3,
+            explanation: "Aunque Esteban fue el primer mártir cristiano varón, no hay especificación de una mujer primera."
+        },
+        {
+            question: "¿Cuántos años Moisés guió a Israel en el desierto?",
+            options: ["20", "30", "40", "50"],
+            correct: 2,
+            explanation: "Moisés guió a Israel 40 años en el desierto hasta la Tierra Prometida (Éxodo 16:35)."
+        },
+        {
+            question: "¿Quién fue el sabio king más importante del Antiguo Testamento?",
+            options: ["David", "Salomón", "Ezequías", "Josafat"],
+            correct: 1,
+            explanation: "Salomón fue conocido como el rey más sabio del Antiguo Testamento."
+        },
+        {
+            question: "¿Cuántos años vivió Adán?",
+            options: ["600", "800", "930", "1000"],
+            correct: 2,
+            explanation: "Adán vivió 930 años según Génesis 5:5."
+        },
+        {
+            question: "¿En qué ciudad encontraron Jesús en el templo los padres?",
+            options: ["Nazaret", "Belén", "Jerusalén", "Capernaúm"],
+            correct: 2,
+            explanation: "María y José encontraron a Jesús enseñando en el templo de Jerusalén a los 12 años (Lucas 2:42-46)."
+        },
+        {
+            question: "¿Quién fue el padre terrenal de Jesús?",
+            options: ["José", "Zacarías", "Simeón", "Herodes"],
+            correct: 0,
+            explanation: "José fue el padre terrenal adoptivo de Jesús (Mateo 1:16, Lucas 3:23)."
         }
     ],
     hard: [
@@ -184,6 +358,84 @@ const allQuestions = {
             options: ["David", "Salomón", "Ezequías", "Manasés"],
             correct: 1,
             explanation: "Salomón pidió sabiduría a Dios y escribió el libro de Proverbios."
+        },
+        {
+            question: "¿Cuántos años estuvo cautivo Israel en Babilonia?",
+            options: ["50", "70", "100", "120"],
+            correct: 1,
+            explanation: "Israel estuvo cautivo en Babilonia 70 años (Jeremías 25:11-12)."
+        },
+        {
+            question: "¿Quién fue transformado en una estatua de sal?",
+            options: ["Abraham", "Lot", "La esposa de Lot", "Ismael"],
+            correct: 2,
+            explanation: "La esposa de Lot fue transformada en sal por mirar hacia atrás (Génesis 19:26)."
+        },
+        {
+            question: "¿Cuántos años estuvo Jonás en el vientre del pez?",
+            options: ["Uno", "Dos", "Tres", "Cuatro"],
+            correct: 2,
+            explanation: "Jonás estuvo tres días y tres noches en el vientre del pez (Jonás 1:17)."
+        },
+        {
+            question: "¿Cuántos libros escribió Pablo según la tradición?",
+            options: ["10", "12", "13", "15"],
+            correct: 2,
+            explanation: "Se atribuyen 13 epístolas a Pablo en el Nuevo Testamento."
+        },
+        {
+            question: "¿Quién fue el único que no murió según la Biblia?",
+            options: ["Noé", "Elías", "Enoc", "Abraham"],
+            correct: 2,
+            explanation: "Enoc y Elías fueron arrebatados al cielo sin experimentar la muerte (Génesis 5:24, 2 Reyes 2:11)."
+        },
+        {
+            question: "¿Cuál es el Salmo más corto?",
+            options: ["Salmo 117", "Salmo 23", "Salmo 150", "Salmo 1"],
+            correct: 0,
+            explanation: "El Salmo 117 es el más corto de la Biblia con solo dos versículos."
+        },
+        {
+            question: "¿Cuántas epístolas escribió Juan?",
+            options: ["Una", "Dos", "Tres", "Cuatro"],
+            correct: 2,
+            explanation: "Se atribuyen tres epístolas a Juan: 1 Juan, 2 Juan y 3 Juan."
+        },
+        {
+            question: "¿Quién fue el rey que hizo construir el templo de Jerusalén?",
+            options: ["David", "Salomón", "Asa", "Ezequías"],
+            correct: 1,
+            explanation: "Salomón construyó el templo de Jerusalén (1 Reyes 6)."
+        },
+        {
+            question: "¿Cuántos mandamientos tenían los fariseos?",
+            options: ["613", "365", "248", "500"],
+            correct: 0,
+            explanation: "Los fariseos desarrollaron una tradición de 613 mandamientos."
+        },
+        {
+            question: "¿Quién fue el único resucitado por una resurrección de entre los muertos en el Antiguo Testamento?",
+            options: ["El hijo de la viuda de Sarepta", "El hijo de la sunamita", "Lázaro", "Tabita"],
+            correct: 1,
+            explanation: "El profeta Eliseo resucitó al hijo de la sunamita (2 Reyes 4:32-37)."
+        },
+        {
+            question: "¿Cuál es el versículo del medio de la Biblia?",
+            options: ["Salmo 118:8", "Proverbios 5:7", "Éxodo 12:37", "2 Crónicas 20:13"],
+            correct: 0,
+            explanation: "Salmo 118:8 es considerado el versículo del medio de la Biblia."
+        },
+        {
+            question: "¿Cuántos hijos tuvo Jacob?",
+            options: ["10", "11", "12", "13"],
+            correct: 2,
+            explanation: "Jacob tuvo 12 hijos que fueron los patriarcas de las 12 tribus de Israel (Génesis 35:22-26)."
+        },
+        {
+            question: "¿Quién escribió la mayoría de los Salmos?",
+            options: ["Salomón", "David", "Moisés", "Asaf"],
+            correct: 1,
+            explanation: "David escribió la mayoría de los Salmos, aunque otros autores también contribuyeron."
         }
     ]
 };
