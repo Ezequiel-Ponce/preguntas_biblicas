@@ -1,6 +1,6 @@
 @echo off
 cd /d "C:\Users\Admin\Desktop\proyecto"
 
-"C:\Program Files\Git\bin\bash.exe" -c "git config --global user.email 'admin@example.com' && git config --global user.name 'Admin' && git add . && git commit -m 'Actualizar preguntas biblicas exactas' && git remote add origin https://github.com/ezequiel-ponce/preguntas_biblicas.git && git branch -M main && git push -u origin main"
+"C:\Program Files\Git\bin\bash.exe" -lc "cd ~/Desktop/proyecto && git remote set-url origin https://github.com/ezequiel-ponce/preguntas_biblicas.git && git add . && git diff --cached --quiet || git commit -m 'Actualizar preguntas biblicas exactas' && git push -u origin master && git push origin master:main"
 
 pause
