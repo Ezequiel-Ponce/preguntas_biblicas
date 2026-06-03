@@ -56,10 +56,10 @@ const allQuestions = {
             explanation: "Dios envió diez plagas sobre Egipto para liberar a Israel de la esclavitud (Éxodo 7-12)."
         },
         {
-            question: "¿Quién es el rey que escribió muchos de los Salmos?",
-            options: ["Moisés", "David", "Isaías", "Salomón"],
+            question: "¿Cuántos mandamientos Dios entregó a Moisés?",
+            options: ["Cinco", "Diez", "Veinte", "Treinta"],
             correct: 1,
-            explanation: "El rey David escribió muchos salmos y es reconocido como autor principal del libro de los Salmos."
+            explanation: "Dios entregó los Diez Mandamientos a Moisés en el Monte Sinaí (Éxodo 20)."
         }
     ],
     medium: [
@@ -70,58 +70,58 @@ const allQuestions = {
             explanation: "La historia de David y Goliat se narra en 1 Samuel 17."
         },
         {
-            question: "¿Quién negó a Jesús tres veces antes de que cantara el gallo?",
-            options: ["Pedro", "Juan", "Tomás", "Judas"],
-            correct: 0,
-            explanation: "Pedro negó a Jesús tres veces antes de que cantara el gallo, tal como predijo Jesús (Mateo 26:69-75)."
-        },
-        {
             question: "¿Quién fue tragado por un gran pez?",
             options: ["Jonás", "Jeremías", "Eliseo", "Daniel"],
             correct: 0,
             explanation: "El profeta Jonás fue tragado por un gran pez y permaneció en su vientre tres días y tres noches (Jonás 1:17)."
         },
         {
-            question: "¿Cuántos años de vida sacrificó Daniel en el foso de los leones?",
-            options: ["Una noche", "Tres noches", "Siete noches", "Doce noches"],
-            correct: 0,
-            explanation: "Daniel pasó una noche en el foso de los leones y fue protegido por Dios (Daniel 6)."
-        },
-        {
-            question: "¿Cuál es la oración que Jesús enseñó en Mateo 6?",
-            options: ["Padrenuestro", "Gloria a Dios", "Magnificat", "Salmo 23"],
-            correct: 0,
-            explanation: "El Padrenuestro es la oración que Jesús enseñó a sus discípulos en Mateo 6:9-13."
+            question: "¿Cuál es la oración que Jesús enseñó a sus discípulos?",
+            options: ["Salmo 23", "Padrenuestro", "Gloria Patri", "Magnificat"],
+            correct: 1,
+            explanation: "Jesús enseñó el Padrenuestro como modelo de oración (Mateo 6:9-13)."
         },
         {
             question: "¿Cuántos libros tiene el Nuevo Testamento?",
-            options: ["27", "39", "66", "23"],
+            options: ["27", "39", "66", "30"],
             correct: 0,
-            explanation: "El Nuevo Testamento de la Biblia Reina Valera 1960 tiene 27 libros."
+            explanation: "El Nuevo Testamento tiene 27 libros en la Biblia Reina Valera 1960."
         },
         {
             question: "¿Quién fue elegido rey de Israel después de Saúl?",
             options: ["Salomón", "David", "Josué", "Roboam"],
             correct: 1,
-            explanation: "David fue elegido rey de Israel después de Saúl."
+            explanation: "David fue ungido como rey de Israel después de Saúl."
         },
         {
             question: "¿Quién era la madre de Juan el Bautista?",
-            options: ["María", "Elisabet", "Marta", "Ana"],
+            options: ["María", "Elisabet", "Marta", "Safira"],
             correct: 1,
-            explanation: "Elisabet fue la madre de Juan el Bautista y pariente de María."
+            explanation: "Elisabet fue la madre de Juan el Bautista, pariente de María."
         },
         {
-            question: "¿Qué significa el nombre 'Imanuel'?",
-            options: ["Dios con nosotros", "Rey de reyes", "Salvación del pueblo", "Luz del mundo"],
+            question: "¿Cuántos años estuvo José en la cárcel de Potifar?",
+            options: ["Dos años", "Cinco años", "Diez años", "Siete años"],
             correct: 0,
-            explanation: "Imanuel significa 'Dios con nosotros' y aparece en Isaías 7:14."
+            explanation: "José estuvo aproximadamente dos años en la cárcel antes de ser liberado por el Faraón."
         },
         {
-            question: "¿Quién escribió la mayoría de las cartas del Nuevo Testamento?",
-            options: ["Pablo", "Pedro", "Santiago", "Juan"],
-            correct: 0,
-            explanation: "Pablo escribió la mayoría de las epístolas del Nuevo Testamento."
+            question: "¿Cuál es el libro más corto del Nuevo Testamento?",
+            options: ["3 Juan", "Filemón", "2 Juan", "Judas"],
+            correct: 1,
+            explanation: "La epístola a Filemón es el libro más corto del Nuevo Testamento con 25 versículos."
+        },
+        {
+            question: "¿Quién fue convertido en sal por mirar atrás en Sodoma?",
+            options: ["Abraham", "Lot", "La esposa de Lot", "Ismael"],
+            correct: 2,
+            explanation: "La esposa de Lot fue convertida en sal por mirar atrás cuando huyeron de Sodoma (Génesis 19:26)."
+        },
+        {
+            question: "¿Cuántos hermanos tenía José en la Biblia?",
+            options: ["10", "11", "12", "13"],
+            correct: 1,
+            explanation: "José tenía 11 hermanos, hijo menor de Jacob y Raquel."
         }
     ],
     hard: [
@@ -144,46 +144,46 @@ const allQuestions = {
             explanation: "En el Apocalipsis hay siete sellos que se rompen durante la visión de Juan."
         },
         {
-            question: "¿Qué rey pidió sabiduría a Dios y escribió Proverbios?",
-            options: ["David", "Salomón", "Ezequías", "Josías"],
-            correct: 1,
-            explanation: "Salomón pidió sabiduría a Dios y escribió muchos proverbios."
-        },
-        {
             question: "¿Qué profeta predijo setenta años de cautiverio en Babilonia?",
-            options: ["Jeremías", "Isaías", "Oseas", "Joel"],
+            options: ["Jeremías", "Isaías", "Oseas", "Amós"],
             correct: 0,
             explanation: "Jeremías predijo 70 años de cautiverio en Babilonia (Jeremías 25:11-12)."
         },
         {
             question: "¿Quién fue el primer mártir cristiano en el libro de Hechos?",
-            options: ["Esteban", "Santiago", "Felipe", "Bernabé"],
+            options: ["Esteban", "Santiago", "Felipe", "Andrés"],
             correct: 0,
             explanation: "Esteban fue el primer mártir cristiano, apedreado en Hechos 7."
         },
         {
-            question: "¿Qué fiesta hebrea celebra la liberación de Egipto?",
-            options: ["Pesaj", "Shavuot", "Sukkot", "Janucá"],
+            question: "¿Qué significa INRI?",
+            options: ["Jesús Nazareno Rey de los Judíos", "Jesús Nombre Rey Israel", "Justicia Nunca Rinde Israel", "Jesús Nazareno Reina Israelita"],
             correct: 0,
-            explanation: "Pesaj, o Pascua, celebra la liberación de los israelitas de Egipto."
-        },
-        {
-            question: "¿Qué palabra describe al cobrador de impuestos en el Nuevo Testamento?",
-            options: ["Publicano", "Sacerdote", "Fariseo", "Rabí"],
-            correct: 0,
-            explanation: "Publicano era el nombre que se usaba para los cobradores de impuestos en tiempos de Jesús."
-        },
-        {
-            question: "¿Qué significa INRI, la inscripción colocada en la cruz de Jesús?",
-            options: ["Jesús Nazareno Rey de los Judíos", "Justo Nazareno Rey Israel", "Jesús Nombre Rey Israel", "Jesús Nazareno Rey de Israel"],
-            correct: 0,
-            explanation: "INRI significa 'Jesús Nazareno Rey de los Judíos', según Juan 19:19-20."
+            explanation: "INRI significa 'Jesús Nazareno Rey de los Judíos' (Juan 19:19-20)."
         },
         {
             question: "¿Cuántas cartas atribuidas a Pablo hay en el Nuevo Testamento?",
-            options: ["13", "11", "15", "10"],
-            correct: 0,
-            explanation: "Tradicionalmente se atribuyen 13 cartas a Pablo en el Nuevo Testamento."
+            options: ["11", "13", "15", "10"],
+            correct: 1,
+            explanation: "Se atribuyen tradicionalmente 13 cartas a Pablo en el Nuevo Testamento."
+        },
+        {
+            question: "¿Cuál fue la confesión de fe de Pedro en Mateo 16?",
+            options: ["Creo en Dios Padre", "Eres el Cristo, Hijo del Dios viviente", "Seguiré al Mesías", "Creo en la resurrección"],
+            correct: 1,
+            explanation: "Pedro dijo: 'Tú eres el Cristo, el Hijo del Dios viviente' (Mateo 16:16)."
+        },
+        {
+            question: "¿Cuántos años de tribulación menciona el Apocalipsis?",
+            options: ["Tres años", "Siete años", "Diez años", "Mil años"],
+            correct: 1,
+            explanation: "El Apocalipsis menciona un período de siete años de tribulación."
+        },
+        {
+            question: "¿Qué rey pidió sabiduría a Dios y escribió Proverbios?",
+            options: ["David", "Salomón", "Ezequías", "Manasés"],
+            correct: 1,
+            explanation: "Salomón pidió sabiduría a Dios y escribió el libro de Proverbios."
         }
     ]
 };
